@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+div {
+    background-color: rgba(163, 221, 202, 0.747);
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+input {
+    padding: 2px;
+    margin: 5px;
+    width: 97%;
+}
+button {
+    padding: 5px;
+    margin: 5px;
+    width: 97%;
+}
+.container {
+    width: 300px;
+    margin: auto;
+}
+.container input {
+    border-radius: 5px;
+}
